@@ -1,0 +1,22 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomcragg/natours.git"
+  },
+  "author": "Tom Cragg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomcragg/natours/issues"
+  },
+  "homepage": "https://github.com/tomcragg/natours#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}
